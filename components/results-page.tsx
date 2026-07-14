@@ -9,75 +9,61 @@ export default function ResultsPage({ onLogout }: ResultsPageProps) {
     name: 'DESAI JASMIT MAHESHBHAI',
     institute: 'Faculty of Engineering & Technology',
     program: 'Bachelor of Technology (Computer Science & Engineering)',
-    semester: 'I',
+    semester: 'II',
     seatNo: '202502626010076',
     enrollmentNo: '202502626010076',
-    examination: 'Winter Examination 2025',
+    examination: 'Summer Examination 2026',
   };
 
   const subjects = [
     {
-      name: 'Elementary Mathematics for Engineers',
+      name: 'Linear Algebra',
       credit: 4,
       minMax: '40/100',
-      obtained: 62,
-      grade: 'A',
+      obtained: 46,
+      grade: 'C+',
     },
     {
-      name: 'Computer Programming Paradigm (Python)',
+      name: 'Object Oriented Programming using C++',
       credit: 3,
-      minMax: '40/100',
-      obtained: 58,
-      grade: 'B+',
-    },
-    {
-      name: 'Computer Organization & Architecture',
-      credit: 3,
-      minMax: '40/100',
-      obtained: 61,
-      grade: 'A',
-    },
-    {
-      name: 'Computer Programming Laboratory (Python)',
-      credit: 2,
-      minMax: '40/100',
-      obtained: 57,
-      grade: 'B+',
-    },
-    {
-      name: 'Practicals of Computer Organization & Architecture',
-      credit: 2,
-      minMax: '40/100',
-      obtained: 63,
-      grade: 'A',
-    },
-    {
-      name: 'Universal Human Values and Value Education',
-      credit: 2,
       minMax: '40/100',
       obtained: 52,
       grade: 'B',
     },
     {
-      name: 'Business Communication and Presentation Skills',
-      credit: 2,
-      minMax: '40/100',
-      obtained: 45,
-      grade: 'C',
-    },
-    {
-      name: 'Environmental Studies',
-      credit: 2,
+      name: 'Database Management Systems',
+      credit: 3,
       minMax: '40/100',
       obtained: 50,
       grade: 'B',
     },
+    {
+      name: 'IT Workshops',
+      credit: 2,
+      minMax: '40/100',
+      obtained: 48,
+      grade: 'B',
+    },
+    {
+      name: 'Digital Systems and Microcontrollers',
+      credit: 3,
+      minMax: '40/100',
+      obtained: 49,
+      grade: 'B',
+    },
+    {
+      name: 'Professional Communication',
+      credit: 2,
+      minMax: '40/100',
+      obtained: 45,
+      grade: 'C+',
+    },
   ];
 
   const semesterMarks = {
-    semester: 'Sem-I',
-    maxMarks: 800,
-    obtainedMarks: 448,
+    semester: 'Sem-II',
+    maxMarks: 600,
+    obtainedMarks: 290,
   };
 
   const cgpaTable = [
