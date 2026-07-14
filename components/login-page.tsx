@@ -43,15 +43,14 @@ export default function LoginPage({ onLogin }: LoginPageProps) {
 
         {/* GLS University Logo */}
         <div className="flex justify-center mb-8">
-          <div className="bg-blue-900 p-4 rounded-lg w-full flex items-center justify-center min-h-32">
-            <div className="text-center">
-              <div className="text-white font-bold text-lg mb-1">GLS</div>
-              <div className="text-white text-sm font-semibold">UNIVERSITY</div>
-              <div className="text-white text-xs mt-2">
-                Promoted By Gujarat Law Society Since 1927
-              </div>
-            </div>
-          </div>
+          <Image
+            src="/gls-logo.png"
+            alt="GLS University"
+            width={410}
+            height={200}
+            className="w-full h-auto"
+            priority
+          />
         </div>
 
         {/* Form */}
