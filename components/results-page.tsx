@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 interface ResultsPageProps {
   onLogout: () => void;
 }
@@ -93,8 +95,15 @@ export default function ResultsPage({ onLogout }: ResultsPageProps) {
       <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 mb-8">
         {/* University Header */}
         <div className="text-center mb-8 pb-8 border-b-2 border-gray-300">
-          <div className="inline-block bg-blue-900 text-white px-6 py-3 rounded-lg mb-4">
-            <h2 className="text-xl font-bold">GLS UNIVERSITY</h2>
+          <div className="flex justify-center mb-4">
+            <Image
+              src="/gls-logo.png"
+              alt="GLS University"
+              width={410}
+              height={200}
+              className="w-full max-w-md h-auto"
+              priority
+            />
           </div>
           <h3 className="text-xl font-bold text-gray-800">STATEMENT OF MARKS</h3>
           <p className="text-gray-600 mt-2">{studentData.examination}</p>
