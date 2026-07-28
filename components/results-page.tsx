@@ -29,43 +29,43 @@ export default function ResultsPage({ onLogout }: ResultsPageProps) {
       name: 'Object Oriented Programming using C++',
       credit: 3,
       minMax: '40/100',
-      obtained: 68,
+      obtained: 64,
       grade: 'A',
     },
     {
       name: 'Database Management Systems',
       credit: 3,
       minMax: '40/100',
-      obtained: 65,
+      obtained: 63,
       grade: 'A',
     },
     {
       name: 'IT Workshops',
       credit: 2,
       minMax: '40/100',
-      obtained: 63,
-      grade: 'A',
+      obtained: 53,
+      grade: 'B',
     },
     {
       name: 'Digital Systems and Microcontrollers',
       credit: 3,
       minMax: '40/100',
-      obtained: 64,
-      grade: 'A',
+      obtained: 54,
+      grade: 'B',
     },
     {
       name: 'Professional Communication',
       credit: 2,
       minMax: '40/100',
-      obtained: 68,
-      grade: 'A',
+      obtained: 54,
+      grade: 'B',
     },
   ];
 
   const semesterMarks = {
     semester: 'Sem-II',
     maxMarks: 600,
-    obtainedMarks: 390,
+    obtainedMarks: 350,
   };
 
   const cgpaTable = [
