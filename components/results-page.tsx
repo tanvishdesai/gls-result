@@ -22,50 +22,50 @@ export default function ResultsPage({ onLogout }: ResultsPageProps) {
       name: 'Linear Algebra',
       credit: 4,
       minMax: '40/100',
-      obtained: 46,
-      grade: 'C+',
+      obtained: 62,
+      grade: 'A',
     },
     {
       name: 'Object Oriented Programming using C++',
       credit: 3,
       minMax: '40/100',
-      obtained: 52,
-      grade: 'B',
+      obtained: 68,
+      grade: 'A',
     },
     {
       name: 'Database Management Systems',
       credit: 3,
       minMax: '40/100',
-      obtained: 50,
-      grade: 'B',
+      obtained: 65,
+      grade: 'A',
     },
     {
       name: 'IT Workshops',
       credit: 2,
       minMax: '40/100',
-      obtained: 48,
-      grade: 'B',
+      obtained: 63,
+      grade: 'A',
     },
     {
       name: 'Digital Systems and Microcontrollers',
       credit: 3,
       minMax: '40/100',
-      obtained: 49,
-      grade: 'B',
+      obtained: 64,
+      grade: 'A',
     },
     {
       name: 'Professional Communication',
       credit: 2,
       minMax: '40/100',
-      obtained: 45,
-      grade: 'C+',
+      obtained: 68,
+      grade: 'A',
     },
   ];
 
   const semesterMarks = {
     semester: 'Sem-II',
     maxMarks: 600,
-    obtainedMarks: 290,
+    obtainedMarks: 390,
   };
 
   const cgpaTable = [
